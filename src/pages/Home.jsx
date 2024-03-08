@@ -10,9 +10,7 @@ import { useEffect } from "react";
 
 
 const Home = () => {
-    useEffect(() => {
 
-    }, [])
     return (
 
         <div className=" bg-violet-200 relative pt-8  md:pt-0 md:h-dvh  flex flex-col items-center justify-center font-bold text-indigo-900 px-1 md:px-10   justify-items ">
@@ -101,24 +99,10 @@ const Home = () => {
 
 
                     </div>
-                    <div className="  rounded-full -z-2" >
-                        <motion.div
-                        // initial={{ opacity: 0, scale: 0.5 }}
-                        // animate={{ opacity: 1, scale: 1 }}
-                        // transition={{
-                        //     duration: 0.0,
-                        //     ease: [0, 0.1, 0.2, 0.1],
-                        //     scale: {
-                        //         type: "spring",
-                        //         damping: 105,
-                        //         stiffness: 10000,
-                        //         restDelta: 0.0001
-                        //     }
-                        // }}    
-                        >
-                            <img className="" src={"public/Images/wall-burst.png"} height="500" width={"400"} alt={"hero"} />
-                        </motion.div>
-                    </div>
+
+                    <img className="" src={"public/Images/wall-burst.png"} height="500" width={"400"} alt={"hero"} />
+
+
                 </div>
                 <div>
                     <br />
@@ -164,7 +148,7 @@ const Home = () => {
                 </div>
 
             </div >
-        </div>
+        </div >
     )
 }
 
