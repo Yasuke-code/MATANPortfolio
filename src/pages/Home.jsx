@@ -100,7 +100,7 @@ const Home = () => {
 
                     </div>
 
-                    <img className="" src={"public/Images/wall-burst.png"} height="500" width={"400"} alt={"hero"} />
+                    <img className="" src={"Images/wall-burst.png"} height="500" width={"400"} alt={"hero"} />
 
 
                 </div>
