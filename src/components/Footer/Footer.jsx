@@ -3,7 +3,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { FaRegCopyright } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
+import { IoIosMail, IoMdCall } from "react-icons/io";
 
 
 
@@ -84,8 +84,9 @@ export default function Footer() {
                         <div className='flex flex-col md:flex-row items-center justify-center p-5 gap-5'>
 
                             <div>
-                                <a href="https://wa.me/+972532779920?text=I%20amm%20interested%20in%20your%20car%20for%20sale" target='#'><FaWhatsapp /></a>
-                                <a href="mailto:matan.s.dev@gmail.com?cc=matan.s.dev@gmail.com&subject=Exciting%20Job%20Opportunity&body=Hi%2C%0D%0A%0D%0AI%20hope%20you're%20doing%20well!%0D%0A%0D%0AI'm%20reaching%20out%20regarding%20an%20exciting%20opportunity%20we%20have%20available%20in%20the%20tech%20field.%20Your%20background%20and%20skills%20caught%20our%20eye,%20and%20we%20believe%20you%20could%20be%20a%20great%20fit%20for%20our%20team.%0D%0A%0D%0AWe're%20looking%20for%20talented%20individuals%20like%20yourself%20to%20join%20us%20in%20our%20mission.%0D%0A%0D%0AIf%20you're%20open%20to%20exploring%20new%20opportunities,%20I'd%20love%20to%20chat%20with%20you%20about%20this%20role%20in%20more%20detail.%20Please%20let%20me%20know%20if%20you're%20interested,%20and%20we%20can%20schedule%20a%20call%20at%20your%20convenience.%0D%0A%0D%0ALooking%20forward%20to%20potentially%20working%20together!"><IoIosMail /></a>
+                                <a className='p-1 flex flex-row justify-between gap-1 items-center  hover:rounded-l-lg' href="https://wa.me/+972532779920?text=I%20amm%20interested%20to%interview%20you%20for%20a%20position%20on%20our%20company" target='#'><FaWhatsapp className='text-3xl  text-green-600 ' /> WhatsApp</a>
+                                <a className='p-1 flex flex-row justify-between gap-3 items-center hover:scale-125' href="mailto:matan.s.dev@gmail.com?cc=matan.s.dev@gmail.com&subject=Exciting%20Job%20Opportunity&body=Hi%2C%0D%0A%0D%0AI%20hope%20you're%20doing%20well!%0D%0A%0D%0AI'm%20reaching%20out%20regarding%20an%20exciting%20opportunity%20we%20have%20available%20in%20the%20tech%20field.%20Your%20background%20and%20skills%20caught%20our%20eye,%20and%20we%20believe%20you%20could%20be%20a%20great%20fit%20for%20our%20team.%0D%0A%0D%0AWe're%20looking%20for%20talented%20individuals%20like%20yourself%20to%20join%20us%20in%20our%20mission.%0D%0A%0D%0AIf%20you're%20open%20to%20exploring%20new%20opportunities,%20I'd%20love%20to%20chat%20with%20you%20about%20this%20role%20in%20more%20detail.%20Please%20let%20me%20know%20if%20you're%20interested,%20and%20we%20can%20schedule%20a%20call%20at%20your%20convenience.%0D%0A%0D%0ALooking%20forward%20to%20potentially%20working%20together!"><IoIosMail className='text-3xl text-blue-950' />Email</a>
+                                <a className='p-1 flex flex-row justify-between gap-1 items-center hover:scale-125 hover:bg-indigo-500' href="tel:+972532779920"><IoMdCall className='text-3xl  text-gray-950' />Call Me</a>
                             </div>
 
                             <div>
@@ -107,7 +108,7 @@ export default function Footer() {
                                     <button type="submit" value="Send" className='   shadow-lg bg-violet-100 w-fit px-3 py-1 hover:text-violet-100 hover:bg-indigo-950/85 rounded-lg' >
                                         Send
                                     </button>
-                                    <div className='text-violet-200 font-mono text-sm'>I' will get back to you as soo as posible</div>
+                                    <div className='text-violet-200 font-mono text-sm'>I will get back to you as soo as possible</div>
                                 </div>
                             </form>
 

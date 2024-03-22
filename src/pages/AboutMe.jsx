@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="bg-violet-200  md:h-dvh flex items-center justify-center text-indigo-900/85">
 
 
-            <div className="contant flex  min-w-[300px] max-w-[900px]  ">
+            <div className="contant flex  min-w-[300px] max-w-[1000px]  ">
 
                 <div className="text-xl  item-body px-2
                ">
