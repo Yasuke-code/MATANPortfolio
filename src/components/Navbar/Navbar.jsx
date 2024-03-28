@@ -1,7 +1,8 @@
-import React from 'react'
 import Menu from './hamborger'
 
 export default function Navbar() {
+
+
     return (
         <div className=' sticky top-0  w-dvw z-10 bg-violet-900 shadow-sm trancition-opacity ease-in px-2 '>
             <div className='flex text-white text-xl items-center justify-between md:py-2 md:px-10 border-b-[1px] font-semibold md:px6 '>
@@ -42,7 +43,7 @@ export default function Navbar() {
                             shadow-md
                             "
                 >
-                    <button className="
+                    <a className="
                                py-1
                                px-2
                                border-r-indigo-500
@@ -55,11 +56,12 @@ export default function Navbar() {
                             
                               
 
-                        ">
+                        "
+                        href='/'>
                         Home
-                    </button>
+                    </a>
 
-                    <button
+                    <a
                         className="
                                py-1
                                px-2
@@ -70,26 +72,30 @@ export default function Navbar() {
                                hover:shadow-md 
                                hover:bg-indigo-500 
                                rounded-md
-                        ">
+                        "
+                        href="AboutMe"
+                    >
                         About
-                    </button>
+                    </a>
 
 
-                    <button
+                    <a
                         className="
-                               py-1
-                               px-2
-                               border-solid
-                               border-l-indigo-500
-                               hover:shadow-md 
-                               hover:bg-indigo-500 
-                               transition ease-in-out delay-150
-                               hover:scale-110
-                               rounded-md
-                        ">
+                                py-1
+                                px-2
+                                border-solid
+                                border-l-indigo-500
+                                hover:shadow-md 
+                                hover:bg-indigo-500 
+                                transition ease-in-out delay-150
+                                hover:scale-110
+                                rounded-mde
+                        "
+                        href='/Projects'
+                    >
                         Projects
-                    </button>
-                    <button className="
+                    </a>
+                    <a className="
                                py-1
                                px-2
                                border-r-indigo-500
@@ -100,9 +106,10 @@ export default function Navbar() {
                                transition ease-in-out delay-150
                                hover:scale-110
 
-                        ">
+                        "
+                        href='/Contact'>
                         Contact
-                    </button>
+                    </a>
                 </div>
             </div>
 

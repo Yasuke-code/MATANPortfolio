@@ -9,16 +9,16 @@ function Section({ children }) {
     return (
         <section ref={ref}>
             {isInView && <motion.div
-                initial={{ opacity: 1, x: -4000, y: -300 }}
+                initial={{ opacity: 1, x: -4000, y: -100 }}
 
                 animate={{ rotate: 360, opacity: 1, x: 0, y: 0 }}
                 transition={{
-                    duration: 2.9,
+                    duration: 2.0,
                     ease: [0, 0.71, 0.2, 1.01],
                     scale: {
                         type: "spring",
                         damping: 15,
-                        stiffness: 150,
+                        stiffness: 100,
                         restDelta: 0.01
                     }
                 }}

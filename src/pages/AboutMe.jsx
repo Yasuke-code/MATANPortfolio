@@ -1,6 +1,4 @@
-import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa"
-import { SiTypescript, SiMongodb, SiPrisma, SiExpress, SiHtml5, SiGnubash, SiGit, SiNpm } from 'react-icons/si';
-import { BiLogoPostgresql } from "react-icons/bi";
+
 import { FaLocationDot } from "react-icons/fa6";
 import Section from "../helpers/Section";
 
@@ -26,7 +24,7 @@ const AboutMe = () => {
 
 
                     <br />
-                    A dedicated professional with a robust background in logistics, management, and, foremost, web development. My professional journey spans from military logistics to various leadership roles, honing my problem-solving and strategic thinking skills. However, my true passion lies in web development. I've immersed myself in mastering HTML, CSS, JavaScript, React, Node.js, and Express, continually seeking to refine and expand my technical expertise. Recently, I've embarked on exploring JAVA, further enriching my skill set. With a steadfast commitment to excellence and continuous learning, I am poised to contribute effectively to innovative web development projects. Let's collaborate to deliver outstanding digital solutions!
+                    A dedicated professional with a robust background in logistics, management, and, foremost, web development. My professional journey spans from military logistics to various leadership roles, honing my problem-solving and strategic thinking skills. However, my true passion lies in web development. ve immersed myself in mastering HTML, CSS, JavaScript, React, Node.js, and Express, continually seeking to refine and expand my technical expertise. Recently,ve embarked on exploring JAVA, further enriching my skill set. With a steadfast commitment to excellence and continuous learning, I am poised to contribute effectively to innovative web development projects.  collaborate to deliver outstanding digital solutions!
                 </div>
             </div>
 

@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
-import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa"
-import { SiTypescript, SiMongodb, SiPrisma, SiExpress, SiHtml5, SiGnubash, SiGit, SiNpm } from 'react-icons/si';
+import { FaCss3, FaJs, FaNodeJs, FaReact } from "react-icons/fa"
+import { SiMongodb, SiPrisma, SiExpress, SiHtml5, SiGnubash, SiGit, SiNpm } from 'react-icons/si';
 import { BiLogoPostgresql } from "react-icons/bi";
-import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
-import { useEffect } from "react";
+
 
 
 
