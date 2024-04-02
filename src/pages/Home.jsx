@@ -133,7 +133,7 @@ const Home = () => {
 
                         </div>
                         <div className="flex flex-row gap-5 items-center">
-                            <div className="text-xl">scripting:
+                            <div className="text-xl">Others:
                             </div>
                             <div className="flex flex-row gap-3">  <SiGnubash size={40} color="gray" /></div>
                             <div className="flex flex-row gap-3" ><SiGit size={40} color="#F1502F" /></div>

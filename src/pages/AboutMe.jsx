@@ -8,7 +8,7 @@ import Section from "../helpers/Section";
 
 const AboutMe = () => {
     return (
-        <div className="bg-violet-200  md:h-dvh flex items-center justify-center text-indigo-900/85">
+        <div className="bg-violet-200  md:h-dvh flex pt-3 items-center justify-center text-indigo-900/85">
 
 
             <div className="contant flex  min-w-[300px] max-w-[1000px]  ">
