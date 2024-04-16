@@ -5,10 +5,10 @@ const Projects = () => {
 
     return (
         <>
-            <div className="    pt-3 flex  text-indigo-900/85 w-dvw bg-violet-200">
+            <div className="pt-3 flex min-h-dvh max-h-fit md:max-h-dvh text-indigo-900/85 w-dvw bg-violet-200 justify-center items-center" id="Projects">
 
 
-                <div className="   min-w-[300px] max-w-[1400px ">
+                <div className="   min-w-[300px] max-w-[1200px] ">
 
                     <div className=" text-xl justify-center text-center items-center px-0  my-4">
 

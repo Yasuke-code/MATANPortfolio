@@ -20,7 +20,7 @@ export default function Footer() {
     return (
 
         <>
-            <div className='bg-indigo-800  text-violet-50/85 '>
+            <div className='bg-indigo-800  text-violet-50/85 ' id='Contact'>
 
 
                 <div className='flex flex-col md:flex-row items-center justify-center md:justify-around pt-5'>
@@ -77,7 +77,7 @@ export default function Footer() {
 
 
 
-                    <div className=' flex flex-col justify  bg-indigo-500/65 shadow-lg rounded-lg '>
+                    <div className=' flex flex-col justify  bg-indigo-500/65 shadow-lg rounded-lg max-w-full '>
                         <div className='w-full text-2xl font-serif font-bold text-center pt-4 '>
                             Contact me
                         </div>

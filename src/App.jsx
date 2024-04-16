@@ -12,11 +12,13 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <Footer />
+      <div className='scroll-smooth focus:scroll-auto'>
+        <Navbar />
+        <Home />
+        <AboutMe />
+        <Projects />
+        <Footer />
+      </div>
     </>
   )
 }

@@ -1,6 +1,6 @@
 
 
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { BiSolidChevronsLeft, BiSolidChevronsRight } from 'react-icons/bi';
 
 export default function Carousel() {
@@ -14,7 +14,7 @@ export default function Carousel() {
         {
             url: "https://i.ibb.co/Xp9kRvK/1.png",
             h1: "CryptoTracker",
-            discription: "Welcome to my crypto tracker COINSNAIL! With React.js, Tailwind CSS, and Zustand, I've built a seamless platform for real-time cryptocurrency tracking. Search, explore, and stay informed about the latest market trends effortlessly. Let's dive into the world of crypto together!",
+            discription: "Welcome to my crypto tracker COINSNAIL! With React.js, Tailwind CSS, and Zustand, I've built a seamless platform for real-time cryptocurrency tracking. Search, explore, and stay informed about the latest market trends effortlessly.",
             href: "https://coinsnail.onrender.com/"
         },
         {
@@ -42,31 +42,46 @@ export default function Carousel() {
     //     }, 10000)
     // })
     return (
-        <div className='max-w[1400px] h-fit w-full m-auto py-7 px-4 relative  '>
+        <div className='max-w[1200px] h-fit w-full m-auto py-7 px-4 relative  '>
             {/* <div style={{ background: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
 
             </div> */}
             {/* right */}
-            <div className='flex flex-col md:flex-row border-black-50 group px-16 py-9 bg-violet-300 gap-4 rounded-2xl'>
-                <div className='absolute top-[50%] -translate-x-0 -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                    <BiSolidChevronsLeft onClick={nextSlide} />
+            <div className='border-black-50 group px-16 py-9 bg-violet-300 gap-4 rounded-2xl ' >
+
+                <div className='flex flex-col lg:flex-row lg:justify-center min-h-48 pt-3'>
+                    <div className='absolute top-[50%] -translate-x-0 -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                        <BiSolidChevronsLeft onClick={nextSlide} />
+                    </div>
+
+                    <div className='text-left max-w-[800px] '>
+                        <div className='text-xl md:pt-3 font-bold'>{slides[currentIndex].h1}</div>
+                        <div className='text-md text-wrap pt-3 font-semibold max-w-[500px]'>{slides[currentIndex].discription}</div>
+
+                    </div>
+                    <hr className='bg-black px-1' />
+                    <div className='max-w-[600px] min-w- h-fit flex items-center'>
+                        <div>
+                            <a href={slides[currentIndex].href} target='_blank'>
+                                <img src={slides[currentIndex].url} width={350} />
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className=' absolute top-[50%] -translate-x-0 -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                        <BiSolidChevronsRight onClick={prevSlide} />
+                    </div>
+
+
                 </div>
-                <div className='text-left max-w-[800px] '>
-                    <div className='text-xl pt-3 font-bold'>{slides[currentIndex].h1}</div>
-                    <div className='text-md text-wrap pt-3 font-semibold'>{slides[currentIndex].discription}</div>
-                    <a className="py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md"> visit the site</a>
+                <div className=' flex justify-center pt-5'>
+                    <a className="py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md cursor-pointer" href={slides[currentIndex].href} target='_blank'>
+                        visit the site
+                    </a>
                 </div>
-                <hr className='bg-black px-1' />
-                <div className='max-w-[600px] h-52'>
-                    <div><a href={slides[currentIndex].href}><img src={slides[currentIndex].url} width={350} /></a></div>
-                </div>
-                <div className=' absolute top-[50%] -translate-x-0 -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                    <BiSolidChevronsRight onClick={prevSlide} />
-                </div>
+
             </div>
-
-
-
             {/* right */}
         </div>
     )

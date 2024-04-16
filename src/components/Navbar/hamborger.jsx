@@ -30,25 +30,25 @@ const Menu = () => {
 
                     <div className="" onClick={toggoleOpen}>
                         <div className="w-full text-blue-900 p-5 text-center cursor-pointer ">
-                            <a href="#">
+                            <a href="/">
                                 Home
                             </a>
                         </div>
                         <hr className="bg-blue-900" />
                         <div className="w-full text-blue-900 p-5 text-center cursor-pointer" >
-                            <a href="#">
+                            <a href="#AboutMe">
                                 About me
                             </a>
                         </div>
                         <hr className="bg-blue-900" />
                         <div className="w-full text-blue-900 p-5 text-center cursor-pointer ">
-                            <a href="#">
+                            <a href="#Projects">
                                 Projects
                             </a>
                         </div>
                         <hr className="bg-blue-900" />
                         <div className="w-full text-blue-900 p-5 text-center cursor-pointer ">
-                            <a href="#">
+                            <a href="#Contact">
                                 Contact me
                             </a>
                         </div>

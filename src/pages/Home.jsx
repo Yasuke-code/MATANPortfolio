@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
 
-        <div className=" bg-violet-200 relative pt-8  md:pt-0 md:h-dvh  flex flex-col items-center justify-center font-bold text-indigo-900 px-1 md:px-10   justify-items ">
+        <div className=" bg-violet-200 relative pt-8  md:pt-0 md:h-dvh  flex flex-col items-center justify-center font-bold text-indigo-900 px-1 md:px-10   justify-items " id="/">
             <div className="bg-indigo-200/5 rounded-xl ">
                 <div className="flex flex-col md:flex-row  items-center justify-around  ">
                     <div className="md:w-[600px]  flex items-center justify-around ">

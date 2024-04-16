@@ -8,16 +8,16 @@ import Section from "../helpers/Section";
 
 const AboutMe = () => {
     return (
-        <div className="bg-violet-200  md:h-dvh flex pt-3 items-center justify-center text-indigo-900/85">
+        <div className="scroll-smooth focus:scroll-auto bg-violet-200  md:h-dvh flex pt-3 items-center justify-center text-indigo-900/85" id="AboutMe">
 
 
             <div className="contant flex  min-w-[300px] max-w-[1000px]  ">
 
                 <div className="text-xl  item-body px-2
                ">
-                    <div className="text-md font-bold text-indigo-700">About Me</div>
+                    <div className="text-3xl font-bold text-indigo-700">About Me</div>
                     <br />
-                    <div className="text-2xl font-bold flex items-center">Dedicated web-developr based in RHOVOT,ISRAEL<FaLocationDot /></div>
+                    <div className="text-3xl font-bold flex items-center">Dedicated web-developr based in RHOVOT,ISRAEL<FaLocationDot /></div>
                     <Section><img
                         className=" md:w-56  rounded-full float-end "
                         src={"/Images/surfing-the-netbg.png"} height="500" width={"500"} alt={"hero"} /></Section>

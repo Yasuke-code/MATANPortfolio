@@ -1,10 +1,11 @@
 import Menu from './hamborger'
 
+
 export default function Navbar() {
 
 
     return (
-        <div className=' sticky top-0  w-dvw z-10 bg-violet-900 shadow-sm trancition-opacity ease-in px-2 '>
+        <div className='scroll-smooth focus:scroll-auto sticky top-0  w-dvw z-10 bg-violet-900 shadow-sm trancition-opacity ease-in px-2 '>
             <div className='flex text-white text-xl items-center justify-between md:py-2 md:px-10 border-b-[1px] font-semibold md:px6 '>
                 <div className='text-3xl font-serif '>
                     MATAN.dev
@@ -53,9 +54,6 @@ export default function Navbar() {
                                hover:scale-110
                                rounded-r-md
                                rounded-l-xl
-                            
-                              
-
                         "
                         href='/'>
                         Home
@@ -73,7 +71,7 @@ export default function Navbar() {
                                hover:bg-indigo-500 
                                rounded-md
                         "
-                        href="AboutMe"
+                        href="#AboutMe"
                     >
                         About
                     </a>
@@ -91,7 +89,7 @@ export default function Navbar() {
                                 hover:scale-110
                                 rounded-mde
                         "
-                        href='/Projects'
+                        href='#Projects'
                     >
                         Projects
                     </a>
@@ -107,7 +105,7 @@ export default function Navbar() {
                                hover:scale-110
 
                         "
-                        href='/Contact'>
+                        href='#Contact'>
                         Contact
                     </a>
                 </div>

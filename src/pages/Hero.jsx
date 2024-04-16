@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { CiLocationOn } from "react-icons/ci";
+// import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
